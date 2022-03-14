@@ -1,1 +1,2 @@
-# Lab2.19
+# laba2.19
+Модуль pathlib
