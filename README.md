@@ -1,2 +1,2 @@
-# laba2.19
+# Lab2.19
 Модуль pathlib
