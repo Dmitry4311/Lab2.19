@@ -3,7 +3,6 @@
 
 import json
 import argparse
-import os.path
 import pathlib
 
 
@@ -191,7 +190,7 @@ def main(command_line=None):
 
     # Загрузить всех студентов из файла, если файл существует.
     is_dirty = False
-    if os.path.exists(args.filename):
+    if pathlib.Path.exists(args.filename):
         students = load_students(args.filename)
     else:
         students = []
